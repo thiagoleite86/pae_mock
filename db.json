@@ -1,0 +1,1209 @@
+{
+  "Turmas": [
+    {
+      "id": 1,
+      "CodColigada": 1,
+      "CodFilial": 5,
+      "CodTurma": "S012602",
+      "NomeCurso": "Técnico em Saneamento",
+      "PerLetivo": "20161",
+      "DtInicial": "2016-03-07T00:00:00",
+      "DtFinal": "2016-06-11T00:00:00",
+      "Alunos": [
+        {
+          "id": 1,
+          "CodColigada": 1,
+          "CodFilial": 5,
+          "CodTurma": "S012602",
+          "Nome": "Fabio",
+          "Matricula": 123456,
+          "CPF": "1111111111",
+          "RA": "2222222222",
+          "CH": 12,
+          "Valor": 12,
+          "Status": "Matriculado",
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 2,
+          "CodColigada": 1,
+          "CodFilial": 5,
+          "CodTurma": "S012602",
+          "Nome": "Fulano de Tal",
+          "Matricula": 123456,
+          "CPF": "1111111111",
+          "RA": "2222222222",
+          "CH": 12,
+          "Valor": 12,
+          "Status": "Matriculado",
+          "SituacaoCadastral": {
+            "Situacao": "Pendente",
+            "Pendencia": "Documentação pendente"
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 3,
+          "CodColigada": 1,
+          "CodFilial": 5,
+          "CodTurma": "S012602",
+          "Nome": "Anderson",
+          "Matricula": 123456,
+          "CPF": "1111111111",
+          "RA": "2222222222",
+          "CH": 12,
+          "Valor": 12,
+          "Status": "Status do Totvs",
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        }
+      ]
+    }
+  ],
+  "Programacoes/Turmas": [
+    {
+      "id": 1,
+      "CodColigada": 1,
+      "CodFilial": 5,
+      "CodTurma": "S012602",
+      "NomeCurso": "Técnico em Saneamento",
+      "PerLetivo": "20161",
+      "CH": 360,
+      "ValorPago": 360,
+      "DtInicial": "2016-03-07T00:00:00",
+      "DtFinal": "2016-06-11T00:00:00",
+      "Alunos": [
+        {
+          "id": 1,
+          "Nome": "Fabio",
+          "CPF": "1111111111",
+          "RA": "2222222222",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 2,
+          "Nome": "Fulano de Tal",
+          "CPF": "1111111111",
+          "RA": "2222222222",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Pendente",
+            "Pendencia": "Documentação pendente"
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 3,
+          "Nome": "Anderson",
+          "CPF": "1111111111",
+          "RA": "2222222222",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        }
+      ],
+      "ProgramacaoAlunos": [
+        {
+          "Data": "2015-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            },
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Ludmila Ribeiro de Cerqueira",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "CodColigada": 1,
+      "CodFilial": 5,
+      "CodTurma": "S012602",
+      "NomeCurso": "Soldador no Processo TIG",
+      "PerLetivo": "20161",
+      "CH": 360,
+      "ValorPago": 360,
+      "DtInicial": "2016-03-07T00:00:00",
+      "DtFinal": "2016-06-11T00:00:00",
+      "Alunos": [
+        {
+          "id": 1,
+          "Nome": "Fabio",
+          "CPF": "5555555555",
+          "RA": "5555555555",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 2,
+          "Nome": "Fulano de Tal",
+          "CPF": "6666666666",
+          "RA": "6666666666",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Pendente",
+            "Pendencia": "Documentação pendente"
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 3,
+          "Nome": "Anderson",
+          "CPF": "7777777777",
+          "RA": "7777777777",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        }
+      ],
+      "ProgramacaoAlunos": [
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Validacoes/Status": [
+    {
+      "id": 1,
+      "Status": "Status1"
+    },
+    {
+      "id": 2,
+      "Status": "Status2"
+    },
+    {
+      "id": 3,
+      "Status": "Status3"
+    }
+  ],
+  "Validacoes": [
+    {
+      "id": 1,
+      "CodColigada": 1,
+      "CodFilial": 5,
+      "CodTurma": "S012602",
+      "NomeCurso": "Técnico em Saneamento",
+      "PerLetivo": "20161",
+      "CH": 360,
+      "ValorPago": "80",
+      "DataPagamento": "2016-03-07T00:00:00",
+      "LoteDePagamento": "01",
+      "ValorTotal": "105",
+      "DataHoraCriacao": "2016-03-07T00:00:00",
+      "DtProgInicio": "2016-03-07T00:00:00",
+      "DtProgFim": "2016-03-07T00:00:00",
+      "DtInicio": "2016-03-07T00:00:00",
+      "DtTermino": "2016-03-07T00:00:00",
+      "Usuario": "Fulano de Tal",
+      "Status": "Status1",
+      "Valor": 124,
+      "Disciplina": [
+        "Matematica",
+        "Portugues"
+      ],
+      "DtInicial": "2016-03-07T00:00:00",
+      "DtFinal": "2016-06-11T00:00:00",
+      "Alunos": [
+        {
+          "id": 1,
+          "Nome": "Fabio",
+          "CPF": "1111111111",
+          "RA": "2222222222",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 2,
+          "Nome": "Fulano de Tal",
+          "CPF": "1111111111",
+          "RA": "2222222222",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Pendente",
+            "Pendencia": "Documentação pendente"
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 3,
+          "Nome": "Anderson",
+          "CPF": "1111111111",
+          "RA": "2222222222",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        }
+      ],
+      "ProgramacaoAlunos": [
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "CodColigada": 1,
+      "CodFilial": 5,
+      "CodTurma": "S012602",
+      "NomeCurso": "Soldador no Processo TIG",
+      "PerLetivo": "20161",
+      "CH": 360,
+      "ValorPago": "80",
+      "DataPagamento": "2016-03-07T00:00:00",
+      "LoteDePagamento": "01",
+      "ValorTotal": "105",
+      "DataHoraCriacao": "2016-03-07T00:00:00",
+      "DtProgInicio": "2016-03-07T00:00:00",
+      "DtProgFim": "2016-03-07T00:00:00",
+      "DtInicio": "2016-03-07T00:00:00",
+      "DtTermino": "2016-03-07T00:00:00",
+      "Usuario": "Fulano de Tal",
+      "Status": "Status2",
+      "Valor": 124,
+      "Disciplina": [
+        "Matematica",
+        "Portugues"
+      ],
+      "DtInicial": "2016-03-07T00:00:00",
+      "DtFinal": "2016-06-11T00:00:00",
+      "Alunos": [
+        {
+          "id": 1,
+          "Nome": "Fabio",
+          "CPF": "5555555555",
+          "RA": "5555555555",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 2,
+          "Nome": "Fulano de Tal",
+          "CPF": "6666666666",
+          "RA": "6666666666",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Pendente",
+            "Pendencia": "Documentação pendente"
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 3,
+          "Nome": "Anderson",
+          "CPF": "7777777777",
+          "RA": "7777777777",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        }
+      ],
+      "ProgramacaoAlunos": [
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Aprovacoes/Status": [
+    {
+      "id": 1,
+      "Status": "Status1"
+    },
+    {
+      "id": 2,
+      "Status": "Status2"
+    },
+    {
+      "id": 3,
+      "Status": "Status3"
+    }
+  ],
+  "Aprovacoes": [
+    {
+      "id": 1,
+      "CodColigada": 1,
+      "CodFilial": 5,
+      "CodTurma": "S012602",
+      "NomeCurso": "Técnico em Saneamento",
+      "PerLetivo": "20161",
+      "CH": 360,
+      "ValorPago": "80",
+      "DataPagamento": "2016-03-07T00:00:00",
+      "LoteDePagamento": "01",
+      "ValorTotal": "105",
+      "DataHoraCriacao": "2016-03-07T00:00:00",
+      "DtProgInicio": "2016-03-07T00:00:00",
+      "DtProgFim": "2016-03-07T00:00:00",
+      "DtInicio": "2016-03-07T00:00:00",
+      "DtTermino": "2016-03-07T00:00:00",
+      "Usuario": "Fulano de Tal",
+      "Status": "Status1",
+      "Valor": 124,
+      "Disciplina": [
+        "Matematica",
+        "Portugues"
+      ],
+      "DtInicial": "2016-03-07T00:00:00",
+      "DtFinal": "2016-06-11T00:00:00",
+      "Alunos": [
+        {
+          "id": 1,
+          "Nome": "Fabio",
+          "CPF": "1111111111",
+          "RA": "2222222222",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 2,
+          "Nome": "Fulano de Tal",
+          "CPF": "1111111111",
+          "RA": "2222222222",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Pendente",
+            "Pendencia": "Documentação pendente"
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 3,
+          "Nome": "Anderson",
+          "CPF": "1111111111",
+          "RA": "2222222222",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        }
+      ],
+      "ProgramacaoAlunos": [
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "CodColigada": 1,
+      "CodFilial": 5,
+      "CodTurma": "S012602",
+      "NomeCurso": "Soldador no Processo TIG",
+      "PerLetivo": "20161",
+      "CH": 360,
+      "ValorPago": "80",
+      "DataPagamento": "2016-03-07T00:00:00",
+      "LoteDePagamento": "01",
+      "ValorTotal": "105",
+      "DataHoraCriacao": "2016-03-07T00:00:00",
+      "DtProgInicio": "2016-03-07T00:00:00",
+      "DtProgFim": "2016-03-07T00:00:00",
+      "DtInicio": "2016-03-07T00:00:00",
+      "DtTermino": "2016-03-07T00:00:00",
+      "Usuario": "Fulano de Tal",
+      "Status": "Status2",
+      "Valor": 124,
+      "Disciplina": [
+        "Matematica",
+        "Portugues"
+      ],
+      "DtInicial": "2016-03-07T00:00:00",
+      "DtFinal": "2016-06-11T00:00:00",
+      "Alunos": [
+        {
+          "id": 1,
+          "Nome": "Fabio",
+          "CPF": "5555555555",
+          "RA": "5555555555",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 2,
+          "Nome": "Fulano de Tal",
+          "CPF": "6666666666",
+          "RA": "6666666666",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Pendente",
+            "Pendencia": "Documentação pendente"
+          },
+          "Observacao": ""
+        },
+        {
+          "id": 3,
+          "Nome": "Anderson",
+          "CPF": "7777777777",
+          "RA": "7777777777",
+          "Matricula": 123456,
+          "CH": 12,
+          "Valor": 12,
+          "SituacaoCadastral": {
+            "Situacao": "Ativo",
+            "Pendencia": ""
+          },
+          "Observacao": ""
+        }
+      ],
+      "ProgramacaoAlunos": [
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Unidade": [
+    {
+      "id": 1,
+      "Nome": "Unidade 1"
+    },
+    {
+      "id": 2,
+      "Nome": "Unidade 2"
+    }
+  ],
+  "Tipodepagamento": [
+    {
+      "id": 1,
+      "Nome": "Tipo Pagamento 1"
+    },
+    {
+      "id": 2,
+      "Nome": "Tipo Pagamento 2"
+    }
+  ],
+  "Funcionalidade": [
+    {
+      "id": 1,
+      "Nome": "Programação"
+    },
+    {
+      "id": 2,
+      "Nome": "Validação"
+    },
+    {
+      "id": 3,
+      "Nome": "Aprovação"
+    },
+    {
+      "id": 4,
+      "Nome": "Financeiro"
+    },
+    {
+      "id": 5,
+      "Nome": "Usuário"
+    }
+  ],
+  "Usuario": [
+    {
+      "id": 1,
+      "Nome": "Fulano",
+      "Email": "fulano@tal.com.br",
+      "Telefone": "719965845",
+      "Login": "fulano",
+      "Senha": "24aed3a3-3c94-4281-ae45-4383d33f3618",
+      "Apikey": "a45we78",
+      "Log": [
+        {
+          "Data": "2012-03-07T00:00:00",
+          "Interacao": "Reprogramação para aluno Tal"
+        },
+        {
+          "Data": "2012-03-07T00:00:00",
+          "Interacao": "Criação de Usuário Tal"
+        }
+      ],
+      "Permissao": [
+        {
+          "TipoPagamento": "Pronatec",
+          "Tela": [
+            {
+              "id": 1,
+              "Nome": "Programação",
+              "Permissao": true
+            },
+            {
+              "id": 2,
+              "Nome": "Validação",
+              "Permissao": true
+            },
+            {
+              "id": 3,
+              "Nome": "Aprovação",
+              "Permissao": true
+            },
+            {
+              "id": 4,
+              "Nome": "Financeiro",
+              "Permissao": true
+            },
+            {
+              "id": 5,
+              "Nome": "Usuários",
+              "Permissao": true
+            }
+          ]
+        },
+        {
+          "TipoPagamento": "Sesi",
+          "Tela": [
+            {
+              "id": 1,
+              "Nome": "Programação",
+              "Permissao": true
+            },
+            {
+              "id": 2,
+              "Nome": "Validação",
+              "Permissao": true
+            },
+            {
+              "id": 3,
+              "Nome": "Aprovação",
+              "Permissao": true
+            },
+            {
+              "id": 4,
+              "Nome": "Financeiro",
+              "Permissao": true
+            },
+            {
+              "id": 5,
+              "Nome": "Usuários",
+              "Permissao": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "Nome": "Antonio",
+      "Email": "antonio@tal.com.br",
+      "Telefone": "719965845",
+      "Login": "antonio",
+      "Senha": "123456",
+      "Apikey": "er787as9d5",
+      "Log": [
+        {
+          "Data": "2012-03-07T00:00:00",
+          "Interacao": "Reprogramação para aluno Tal"
+        },
+        {
+          "Data": "2012-03-07T00:00:00",
+          "Interacao": "Criação de Usuário Tal"
+        }
+      ],
+      "Permissao": [
+        {
+          "TipoPagamento": "Pronatec",
+          "Tela": [
+            {
+              "id": 1,
+              "Nome": "Programação",
+              "Permissao": true
+            },
+            {
+              "id": 2,
+              "Nome": "Validação",
+              "Permissao": true
+            },
+            {
+              "id": 3,
+              "Nome": "Aprovação",
+              "Permissao": true
+            },
+            {
+              "id": 4,
+              "Nome": "Financeiro",
+              "Permissao": true
+            },
+            {
+              "id": 5,
+              "Nome": "Usuários",
+              "Permissao": true
+            }
+          ]
+        },
+        {
+          "TipoPagamento": "Sesi",
+          "Tela": [
+            {
+              "id": 1,
+              "Nome": "Programação",
+              "Permissao": true
+            },
+            {
+              "id": 2,
+              "Nome": "Validação",
+              "Permissao": true
+            },
+            {
+              "id": 3,
+              "Nome": "Aprovação",
+              "Permissao": true
+            },
+            {
+              "id": 4,
+              "Nome": "Financeiro",
+              "Permissao": true
+            },
+            {
+              "id": 5,
+              "Nome": "Usuários",
+              "Permissao": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Financeiro": [
+    {
+      "id": 1,
+      "CodColigada": 1,
+      "CodFilial": 5,
+      "CodTurma": "S012602",
+      "NomeCurso": "Técnico em Saneamento",
+      "PerLetivo": "20161",
+      "CH": 360,
+      "ValorPago": "80",
+      "DataPagamento": "2016-03-07T00:00:00",
+      "LoteDePagamento": "01",
+      "ValorTotal": "105",
+      "DtInicial": "2016-03-07T00:00:00",
+      "DtFinal": "2016-06-11T00:00:00",
+      "Alunos": [
+        {
+          "id": 1,
+          "Nome": "Fabio",
+          "ValorAluno": 12,
+          "Situacao": "Pago"
+        },
+        {
+          "id": 2,
+          "Nome": "Fulano de Tal",
+          "ValorAluno": 12,
+          "Situacao": "Pago"
+        },
+        {
+          "id": 3,
+          "Nome": "Anderson",
+          "ValorAluno": 12,
+          "Situacao": "Pago"
+        }
+      ],
+      "ProgramacaoAlunos": [
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "CodColigada": 1,
+      "CodFilial": 5,
+      "CodTurma": "S012602",
+      "NomeCurso": "Soldador no Processo TIG",
+      "PerLetivo": "20161",
+      "ValorPago": "80",
+      "DataPagamento": "2016-03-07T00:00:00",
+      "LoteDePagamento": "01",
+      "ValorTotal": "105",
+      "DtInicial": "2016-03-07T00:00:00",
+      "DtFinal": "2016-06-11T00:00:00",
+      "Alunos": [
+        {
+          "id": 1,
+          "Nome": "Fabio",
+          "ValorAluno": 12,
+          "Situacao": "Pago"
+        },
+        {
+          "id": 2,
+          "Nome": "Fulano de Tal",
+          "ValorAluno": 12,
+          "Situacao": "Pago"
+        },
+        {
+          "id": 3,
+          "Nome": "Anderson",
+          "ValorAluno": 12,
+          "Situacao": "Pago"
+        }
+      ],
+      "ProgramacaoAlunos": [
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "Data": "2016-03-07T00:00:00",
+          "Situacao": "Pago",
+          "CHProgramada": 200,
+          "ValorTurma": 200,
+          "CHPago": 0,
+          "Aluno": [
+            {
+              "CHProg": 360,
+              "CHPago": 50,
+              "CHTotal": 50,
+              "Saldo": 50,
+              "ValorProgramado": 360,
+              "Status": "Pago",
+              "Nome": "Jeferson Bahia",
+              "ProgramacoesAnteriores": [
+                "2016-03-07T00:00:00",
+                "2015-03-07T00:00:00",
+                "2014-03-07T00:00:00",
+                "2013-03-07T00:00:00",
+                "2012-03-07T00:00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
